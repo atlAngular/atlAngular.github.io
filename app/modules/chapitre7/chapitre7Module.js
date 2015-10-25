@@ -13,7 +13,7 @@ angular.module('mainApp.chapitre7.controllers',[
 ]).config(function ($routeProvider) {
   $routeProvider
     .when('/chapitre7/', {
-      templateUrl: 'modules/chapitre7/views/chapitre7.html',
+      templateUrl: '../app/modules/chapitre7/views/chapitre7.html',
       controller: 'chapitre7Ctrl',
       controllerAs: 'controllers'
     });
