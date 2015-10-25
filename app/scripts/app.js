@@ -39,8 +39,3 @@ angular
         redirectTo: '/'
       });
   });
-
-
-  angular.module('atlAngulargithubioApp').config(function ($locationProvider) {
-    $locationProvider.html5Mode(true);
-  });
